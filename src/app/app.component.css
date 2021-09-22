@@ -1,0 +1,34 @@
+
+.videoField{
+    padding: 0;
+}
+
+.videoItem{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+}
+
+.well{
+    height:150px;
+}
+
+
+
+/* MediaQueries, tablet and desktop display */
+
+
+@media screen and (min-width: 600px){
+    .videoItem{
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .videoItem{
+        height: 400px;
+    }
+
+}
